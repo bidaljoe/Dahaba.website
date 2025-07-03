@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DHAHABA CONSTRUCTION LTD</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>
+tailwind.config = {
+theme: {
+extend: {
+colors: {
+primary: '#0B2447',
+secondary: '#576CBC'
+},
+borderRadius: {
+'none': '0px',
+'sm': '4px',
+DEFAULT: '8px',
+'md': '12px',
+'lg': '16px',
+'xl': '20px',
+'2xl': '24px',
+'3xl': '32px',
+'full': '9999px',
+'button': '8px'
+}
+}
+}
+}
+</script>
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+body {
+font-family: 'Open Sans', sans-serif;
+}
+@keyframes pulse {
+0%, 100% { transform: scale(1); }
+50% { transform: scale(1.1); }
+}
+@keyframes shake {
+0%, 100% { transform: translateX(0); }
+25% { transform: translateX(-2px); }
+75% { transform: translateX(2px); }
+}
+@keyframes bounce {
+0%, 100% { transform: translateY(0); }
+50% { transform: translateY(-4px); }
+}
+@keyframes rotate {
+from { transform: rotate(0deg); }
+to { transform: rotate(360deg); }
+}
+@keyframes heroZoom {
+0% { transform: scale(1); }
+100% { transform: scale(1.1); }
+}
+#hero-section {
+animation: heroZoom 20s infinite alternate;
+}
+.service-icon i {
+animation: pulse 2s ease-in-out infinite;
+}
+.footer-social i {
+animation: bounce 2s ease-in-out infinite;
+}
+.contact-icon i {
+animation: shake 2s ease-in-out infinite;
+}
+.feature-icon i {
+animation: pulse 2s ease-in-out infinite;
+}
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Montserrat', sans-serif;
+}
+.hero-overlay {
+background: linear-gradient(90deg, rgba(11, 36, 71, 0.95) 0%, rgba(11, 36, 71, 0.8) 50%, rgba(11, 36, 71, 0.4) 100%);
+}
+</style>
+</head>
+<body class="bg-white">
+<header class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm">
+<div class="container mx-auto px-4 h-20 flex items-center justify-between">
+<a href="#" class="text-2xl font-bold text-primary">DHAHABA</a>
+<nav class="hidden md:flex items-center space-x-8">
+<a href="#" class="text-gray-700 hover:text-primary transition-colors">Home</a>
+<a href="#" class="text-gray-700 hover:text-primary transition-colors">About</a>
+<a href="#" class="text-gray-700 hover:text-primary transition-colors">Services</a>
+<a href="#" class="text-gray-700 hover:text-primary transition-colors">Projects</a>
+<a href="#" class="text-gray-700 hover:text-primary transition-colors">Contact</a>
+<button class="bg-primary text-white px-6 py-2.5 !rounded-button hover:bg-opacity-90 transition-colors whitespace-nowrap">Get a Free Quote</button>
+</nav>
+<button class="md:hidden w-10 h-10 flex items-center justify-center">
+<i class="ri-menu-line text-2xl text-gray-700"></i>
+</button>
+</div>
+</header>
+<section class="relative min-h-screen pt-20 overflow-hidden" style="background-image: url('https://readdy.ai/api/search-image?query=modern%20architectural%20construction%20site%20with%20glass%20and%20steel%20building%2C%20dramatic%20lighting%2C%20professional%20high-end%20construction%20photography%20style%2C%20clean%20composition%2C%20muted%20colors%2C%20slight%20fog%20or%20mist%20in%20background%20creating%20depth%2C%20early%20morning%20or%20late%20afternoon%20golden%20hour%20lighting&width=1920&height=1080&seq=1&orientation=landscape'); background-size: cover; background-position: center;" id="hero-section">
+<div class="hero-overlay absolute inset-0"></div>
+<div class="container mx-auto px-4 relative h-[calc(100vh-5rem)] flex items-center">
+<div class="max-w-3xl">
+<h1 class="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">Building Trust.<br>Building the Future.</h1>
+<p class="text-xl text-gray-100 mb-8 max-w-2xl">Transform your vision into reality with DHAHABA CONSTRUCTION. We deliver excellence in construction through innovation, expertise, and unwavering commitment to quality.</p>
+<div class="flex flex-wrap gap-4">
+<button class="bg-primary text-white px-8 py-4 !rounded-button hover:bg-opacity-90 transition-all duration-300 transform hover:scale-105 hover:shadow-lg text-lg font-semibold whitespace-nowrap group">
+<span class="inline-flex items-center">
+Get a Free Quote
+<i class="ri-arrow-right-line ml-2 transform transition-transform group-hover:translate-x-1"></i>
+</span>
+</button>
+<button class="bg-white text-primary px-8 py-4 !rounded-button hover:bg-opacity-90 transition-all duration-300 transform hover:scale-105 hover:shadow-lg text-lg font-semibold whitespace-nowrap group">
+<span class="inline-flex items-center">
+View Our Projects
+<i class="ri-arrow-right-line ml-2 transform transition-transform group-hover:translate-x-1"></i>
+</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 bg-gray-50">
+<div class="container mx-auto px-4">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<h2 class="text-4xl font-bold text-gray-900 mb-4">Our Services</h2>
+<p class="text-gray-600">Comprehensive construction solutions tailored to your needs. From concept to completion, we ensure excellence at every step.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+<div class="w-16 h-16 flex items-center justify-center bg-primary/10 rounded-lg mb-6 service-icon">
+<i class="ri-building-2-line text-2xl text-primary"></i>
+</div>
+<h3 class="text-xl font-bold text-gray-900 mb-3">Commercial Construction</h3>
+<p class="text-gray-600 mb-4">State-of-the-art commercial buildings, offices, and retail spaces designed for modern business needs.</p>
+<a href="#" class="inline-flex items-center text-primary font-semibold hover:text-secondary transition-colors">
+Learn More
+<i class="ri-arrow-right-line ml-2"></i>
+</a>
+</div>
+<div class="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+<div class="w-16 h-16 flex items-center justify-center bg-primary/10 rounded-lg mb-6 service-icon">
+<i class="ri-home-4-line text-2xl text-primary"></i>
+</div>
+<h3 class="text-xl font-bold text-gray-900 mb-3">Residential Projects</h3>
+<p class="text-gray-600 mb-4">Custom homes and residential developments built with precision, quality, and attention to detail.</p>
+<a href="#" class="inline-flex items-center text-primary font-semibold hover:text-secondary transition-colors">
+Learn More
+<i class="ri-arrow-right-line ml-2"></i>
+</a>
+</div>
+<div class="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+<div class="w-16 h-16 flex items-center justify-center bg-primary/10 rounded-lg mb-6 service-icon">
+<i class="ri-tools-line text-2xl text-primary"></i>
+</div>
+<h3 class="text-xl font-bold text-gray-900 mb-3">Renovations</h3>
+<p class="text-gray-600 mb-4">Transform existing spaces with modern upgrades and renovations that enhance value and functionality.</p>
+<a href="#" class="inline-flex items-center text-primary font-semibold hover:text-secondary transition-colors">
+Learn More
+<i class="ri-arrow-right-line ml-2"></i>
+</a>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20">
+<div class="container mx-auto px-4">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<h2 class="text-4xl font-bold text-gray-900 mb-4">Featured Projects</h2>
+<p class="text-gray-600">Discover our portfolio of successful projects that showcase our expertise and commitment to excellence.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="group relative overflow-hidden rounded-lg">
+<img src="https://readdy.ai/api/search-image?query=modern%20glass%20office%20building%20exterior%2C%20clean%20architectural%20photography%2C%20dramatic%20lighting%2C%20professional%20construction%20photography%20style%2C%20blue%20sky%20with%20light%20clouds&width=600&height=400&seq=2&orientation=landscape" alt="Project 1" class="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-110">
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+<div class="absolute bottom-0 left-0 right-0 p-6">
+<h3 class="text-xl font-bold text-white mb-2">Crystal Tower</h3>
+<p class="text-gray-200 text-sm mb-4">Commercial Office Complex</p>
+<button class="bg-white text-primary px-4 py-2 !rounded-button text-sm font-semibold whitespace-nowrap">View Details</button>
+</div>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-lg">
+<img src="https://readdy.ai/api/search-image?query=luxury%20modern%20residential%20building%20exterior%2C%20clean%20architectural%20photography%2C%20warm%20evening%20lighting%2C%20professional%20construction%20photography%20style%2C%20landscaped%20garden&width=600&height=400&seq=3&orientation=landscape" alt="Project 2" class="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-110">
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+<div class="absolute bottom-0 left-0 right-0 p-6">
+<h3 class="text-xl font-bold text-white mb-2">The Residences</h3>
+<p class="text-gray-200 text-sm mb-4">Luxury Apartments</p>
+<button class="bg-white text-primary px-4 py-2 !rounded-button text-sm font-semibold whitespace-nowrap">View Details</button>
+</div>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-lg">
+<img src="https://readdy.ai/api/search-image?query=industrial%20warehouse%20construction%20site%2C%20clean%20architectural%20photography%2C%20dramatic%20lighting%2C%20professional%20construction%20photography%20style%2C%20modern%20industrial%20design&width=600&height=400&seq=4&orientation=landscape" alt="Project 3" class="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-110">
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+<div class="absolute bottom-0 left-0 right-0 p-6">
+<h3 class="text-xl font-bold text-white mb-2">Industrial Hub</h3>
+<p class="text-gray-200 text-sm mb-4">Manufacturing Facility</p>
+<button class="bg-white text-primary px-4 py-2 !rounded-button text-sm font-semibold whitespace-nowrap">View Details</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 bg-gray-50">
+<div class="container mx-auto px-4">
+<div class="max-w-6xl mx-auto flex flex-col lg:flex-row gap-12">
+<div class="lg:w-1/2">
+<h2 class="text-4xl font-bold text-gray-900 mb-6">Why Choose DHAHABA CONSTRUCTION</h2>
+<p class="text-gray-600 mb-8">With over 25 years of experience in the construction industry, we've built our reputation on quality, reliability, and innovation. Our team of experts is committed to delivering exceptional results on every project.</p>
+<div class="grid grid-cols-2 gap-6">
+<div class="flex items-start space-x-4">
+<div class="w-12 h-12 flex items-center justify-center bg-primary/10 rounded-lg shrink-0 feature-icon">
+<i class="ri-shield-check-line text-xl text-primary"></i>
+</div>
+<div>
+<h3 class="text-lg font-semibold text-gray-900 mb-2">Quality Assured</h3>
+<p class="text-gray-600">Highest standards in construction and materials</p>
+</div>
+</div>
+<div class="flex items-start space-x-4">
+<div class="w-12 h-12 flex items-center justify-center bg-primary/10 rounded-lg shrink-0 feature-icon">
+<i class="ri-time-line text-xl text-primary"></i>
+</div>
+<div>
+<h3 class="text-lg font-semibold text-gray-900 mb-2">On-Time Delivery</h3>
+<p class="text-gray-600">Strict adherence to project timelines</p>
+</div>
+</div>
+<div class="flex items-start space-x-4">
+<div class="w-12 h-12 flex items-center justify-center bg-primary/10 rounded-lg shrink-0 feature-icon">
+<i class="ri-team-line text-xl text-primary"></i>
+</div>
+<div>
+<h3 class="text-lg font-semibold text-gray-900 mb-2">Expert Team</h3>
+<p class="text-gray-600">Skilled professionals and craftsmen</p>
+</div>
+</div>
+<div class="flex items-start space-x-4">
+<div class="w-12 h-12 flex items-center justify-center bg-primary/10 rounded-lg shrink-0 feature-icon">
+<i class="ri-customer-service-2-line text-xl text-primary"></i>
+</div>
+<div>
+<h3 class="text-lg font-semibold text-gray-900 mb-2">24/7 Support</h3>
+<p class="text-gray-600">Dedicated customer service team</p>
+</div>
+</div>
+</div>
+</div>
+<div class="lg:w-1/2">
+<div class="bg-white p-8 rounded-lg shadow-sm">
+<h3 class="text-2xl font-bold text-gray-900 mb-6">Get Your Free Quote</h3>
+<form class="space-y-6">
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-2">Full Name</label>
+<input type="text" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Enter your name">
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-2">Email Address</label>
+<input type="email" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Enter your email">
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-2">Phone Number</label>
+<input type="tel" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Enter your phone number">
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-2">Project Type</label>
+<select class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+<option value="">Select project type</option>
+<option value="commercial">Commercial Construction</option>
+<option value="residential">Residential Construction</option>
+<option value="renovation">Renovation</option>
+<option value="other">Other</option>
+</select>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-2">Message</label>
+<textarea class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" rows="4" placeholder="Tell us about your project"></textarea>
+</div>
+<button type="submit" class="w-full bg-primary text-white py-3 !rounded-button hover:bg-opacity-90 transition-colors font-semibold whitespace-nowrap">Submit Request</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+<footer class="bg-gray-900 text-gray-300 py-16">
+<div class="container mx-auto px-4">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+<div>
+<h3 class="text-2xl font-bold text-white mb-6">DHAHABA</h3>
+<p class="mb-6">Building excellence through innovation and dedication. Your trusted partner in construction since 1998.</p>
+<div class="flex space-x-4">
+<a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-primary transition-colors footer-social">
+<i class="ri-facebook-fill"></i>
+</a>
+<a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-primary transition-colors footer-social">
+<i class="ri-twitter-fill"></i>
+</a>
+<a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-primary transition-colors footer-social">
+<i class="ri-linkedin-fill"></i>
+</a>
+<a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-primary transition-colors footer-social">
+<i class="ri-instagram-line"></i>
+</a>
+</div>
+</div>
+<div>
+<h4 class="text-lg font-semibold text-white mb-6">Quick Links</h4>
+<ul class="space-y-4">
+<li><a href="#" class="hover:text-white transition-colors">About Us</a></li>
+<li><a href="#" class="hover:text-white transition-colors">Services</a></li>
+<li><a href="#" class="hover:text-white transition-colors">Projects</a></li>
+<li><a href="#" class="hover:text-white transition-colors">Careers</a></li>
+<li><a href="#" class="hover:text-white transition-colors">Contact</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-lg font-semibold text-white mb-6">Services</h4>
+<ul class="space-y-4">
+<li><a href="#" class="hover:text-white transition-colors">Commercial Construction</a></li>
+<li><a href="#" class="hover:text-white transition-colors">Residential Projects</a></li>
+<li><a href="#" class="hover:text-white transition-colors">Renovations</a></li>
+<li><a href="#" class="hover:text-white transition-colors">Project Management</a></li>
+<li><a href="#" class="hover:text-white transition-colors">Consulting Services</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-lg font-semibold text-white mb-6">Contact Us</h4>
+<ul class="space-y-4">
+<li class="flex items-start space-x-3 contact-icon">
+<i class="ri-map-pin-line mt-1"></i>
+<span>21a Naguru Dr, Kampala, Uganda</span>
+</li>
+<li class="flex items-center space-x-3 contact-icon">
+<i class="ri-phone-line"></i>
+<span>+256 753 174 879</span>
+</li>
+<li class="flex items-center space-x-3 contact-icon">
+<i class="ri-mail-line"></i>
+<span>info@dhahaba.com</span>
+</li>
+<li class="flex items-center space-x-3 contact-icon">
+<i class="ri-time-line"></i>
+<span>Mon - Fri: 8:00 AM - 6:00 PM</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="border-t border-gray-800 mt-12 pt-8 text-center">
+<p>&copy; 2025 DHAHABA CONSTRUCTION LTD. All rights reserved.</p>
+</div>
+</div>
+</footer>
+</body>
+</html>
